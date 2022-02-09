@@ -1,0 +1,39 @@
+%NAME%
+tzdata
+
+%VERSION%
+2021e-1.0
+
+%BASE%
+tzdata
+
+%DESC%
+Sources for time zone and daylight saving time data
+
+%URL%
+https://www.iana.org/time-zones
+
+%ARCH%
+pentium4
+
+%BUILDDATE%
+1635628731
+
+%INSTALLDATE%
+1644382251
+
+%PACKAGER%
+Andreas Baumann <mail@andreasbaumann.cc>
+
+%SIZE%
+2260365
+
+%REASON%
+1
+
+%LICENSE%
+custom: public domain
+
+%VALIDATION%
+sha256
+

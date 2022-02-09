@@ -1,0 +1,52 @@
+%NAME%
+iproute2
+
+%VERSION%
+5.16.0-1.0
+
+%BASE%
+iproute2
+
+%DESC%
+IP Routing Utilities
+
+%URL%
+https://git.kernel.org/pub/scm/network/iproute2/iproute2.git
+
+%ARCH%
+pentium4
+
+%BUILDDATE%
+1642152236
+
+%INSTALLDATE%
+1644382257
+
+%PACKAGER%
+Andreas Baumann <mail@andreasbaumann.cc>
+
+%SIZE%
+3745292
+
+%REASON%
+1
+
+%LICENSE%
+GPL2
+
+%VALIDATION%
+sha256
+
+%DEPENDS%
+glibc
+iptables
+libelf
+
+%OPTDEPENDS%
+db: userspace arp daemon
+libcap: tipc
+linux-atm: ATM support
+
+%PROVIDES%
+iproute
+
